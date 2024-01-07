@@ -6,7 +6,7 @@ import languageRouters from "./routes/language.routes"
 const app=express();
 
 //settings
-app.set("port", 4000);
+app.set("port", 34933);
 
 //Middlewares intermediario 
 app.use(morgan("dev"));
