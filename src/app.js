@@ -13,6 +13,6 @@ app.use(morgan("dev"));
 app.use(express.json());
 
 //Routes
-app.use("/api/language",languageRouters)
+app.use(languageRouters)
 
 export default app;
